@@ -1,0 +1,11 @@
+.DS_Store
+yarn.lock
+yarn-error.log
+package-lock.json
+
+node_modules/
+logs/
+public/css/
+public/images/
+public/js/
+public/fonts/

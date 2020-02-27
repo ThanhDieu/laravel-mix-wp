@@ -1,0 +1,100 @@
+$black: #414141;
+$gray: #8F8F8F;
+$orange: #F28A52;
+$red: #E93818;
+$yellow: #E6B40E;
+$white-gray: #F2F2F2;
+$black-gray: #575757;
+$red-linear: linear-gradient(to right, #E93818, #D92707);
+$gray-EFEFEF: #EFEFEF;
+
+/**
+color
+ */
+.color-666{
+  color: #666;
+}
+.color-black{
+  color: $black;
+}
+.color-gray{
+  color: $gray;
+}
+.color-organe{
+  color: $orange;
+}
+.color-red{
+  color: $red;
+}
+.color-yellow{
+  color: $yellow;
+}
+.color-black-gray{
+  color: $black-gray;
+}
+.color-black-324041{
+  color: #324041;
+}
+/**
+background-color
+ */
+.bg-gray-EFEFEF{
+  background-color: $gray-EFEFEF;
+}
+.bg-gray {
+  background-color: $gray;
+}
+.bg-organe{
+  background-color: $orange;
+}
+.bg-red{
+  background-color: $red;
+}
+.bg-yellow{
+  background-color: $yellow;
+}
+.bg-black-gray{
+  background-color: $black-gray;
+}
+.bg-red-linear{
+  background: $red-linear;
+}
+.bg-gray-F5F5F5{
+  background-color: #F5F5F5;
+}
+/**
+font
+ */
+.light{
+  font-weight: 300;
+}
+.medium {
+  font-weight: 500;
+}
+.bold{
+  font-weight: 700;
+}
+.fs-12{
+  font-size: 1.2rem;
+}
+.fs-13{
+  font-size: 1.2rem;
+}
+.fs-14{
+  font-size: 1.4rem;
+}
+.fs-16{
+  font-size: 1.6rem;
+}
+.fs-20{
+  font-size: 2rem;
+}
+.fs-21{
+  font-size: 2.1rem;
+}
+.fs-23{
+  font-size: 2.3rem;
+}
+.fs-24{
+  font-size: 2.4rem;
+}

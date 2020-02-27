@@ -1,0 +1,335 @@
+@media (max-width: 1200px) {
+  .menu {
+    justify-content: space-between;
+
+    > .menu-item {
+      padding-right: 0;
+    }
+  }
+  .menu > .menu-item > .sub-menu {
+    padding-right: 10%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .cart-item .icon.fixed-ic {
+    right: 5%;
+  }
+}
+
+@media (max-width: 992px) {
+  html {
+    font-size: 9px;
+  }
+  #top-header {
+    display: none;
+  }
+  .header {
+    position: fixed;
+    top: 0;
+    left: 50px;
+    right: 15px;
+    z-index: 9999;
+    height: 50px;
+    padding: 10px 0 !important;
+
+    .logo-main {
+      height: 30px;
+
+      img {
+        height: 100%;
+        width: auto;
+      }
+    }
+
+    .top-hd-info {
+      .w-50 {
+        &:first-child {
+          display: none;
+        }
+
+        &:last-child {
+          .text {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .search-field {
+    padding: 0.5rem 1rem;
+    height: 100%;
+  }
+  .woocommerce-product-search {
+    width: 100%;
+  }
+  .banner-main {
+    margin-top: 50px;
+  }
+  .sale-cat, .sv-loop, .news-list {
+    width: 100%;
+    overflow-x: auto;
+    >.row {
+      width: max-content;
+    }
+  }
+  .sv-loop .text strong {
+    white-space: nowrap;
+  }
+  .sale-main {
+    .woocommerce {
+      width: 100%;
+      overflow-x: auto;
+
+      .products {
+        width: 200%;
+      }
+    }
+
+    ul.products {
+      flex-wrap: nowrap !important;
+      justify-content: unset !important;
+
+      li.product.type-product {
+        .image-cover {
+          img {
+            width: 80%;
+          }
+        }
+      }
+    }
+  }
+  .trademark-logo {
+    .bg-gray-EFEFEF {
+      width: 100%;
+      overflow-x: auto;
+
+      .row {
+        width: max-content;
+      }
+    }
+  }
+  .cat-name-main {
+    flex-wrap: wrap;
+
+    .title {
+      font-size: 1.5rem;
+    }
+
+    .cat-child-name {
+      max-width: 100%;
+      padding: 1rem 0;
+
+      ul {
+        padding-left: 0;
+      }
+    }
+  }
+  body .woocommerce ul.products.cat-pro-content-ft li.product.type-product .image-cover {
+    height: auto;
+    padding: 2rem;
+  }
+  body .woocommerce ul.products.cat-pro-content-ft li.product.type-product .pro-item-content {
+    padding: 2rem !important;
+  }
+  .widget_product_categories {
+    display: none;
+  }
+  .cat-pro-page {
+    > .container {
+      > .row {
+        flex-direction: column-reverse;
+      }
+    }
+  }
+  .wpf_form .wpf_items_wrapper .wpf_item {
+    ul {
+      display: flex;
+      white-space: nowrap;
+      overflow-x: auto;
+    }
+  }
+  #news-page{
+    .news-list{
+      overflow-x: unset;
+    }
+    .row{
+      width: auto;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+}
+
+@media (max-width: 767px) {
+  .register-main {
+    .list-none {
+      justify-content: center;
+    }
+  }
+  #register-main form {
+    flex-wrap: wrap;
+  }
+  #register-main .gform_heading {
+    width: 100%;
+    text-align: center;
+  }
+  #register-main .gform_wrapper .gform_body {
+    width: 80%;
+  }
+  #register-main .gform_wrapper .gform_footer {
+    width: 20%;
+  }
+  .copyright {
+    .col-md-6 {
+      text-align: center !important;
+    }
+  }
+  #footer {
+    .title {
+      margin-bottom: 0 !important;
+    }
+  }
+  .owl-carousel .owl-dots .owl-dot {
+    &.active {
+      width: 1rem;
+      height: 1rem;
+    }
+  }
+  .woocommerce ul.products.columns-4 li.product.type-product{
+    width: 33.3%;
+  }
+  #single-product div.product div.images{
+    width: 80%;
+    margin: 0 auto 2rem;
+    .woocommerce-product-gallery__image a {
+      height: auto;
+    }
+  }
+  .woocommerce ul.products.cat-pro-content-ft li.product.type-product .btn-holder {
+    bottom: 4rem;
+  }
+  .news-content{
+    .fs-21{
+      font-size: 1.8rem;
+    }
+    .fs-24{
+      font-size: 2rem;
+    }
+    .h-250{
+      height: 20rem;
+    }
+  }
+  .widget{
+    &:first-child{
+      .post-categories{
+        display: flex;
+        overflow-x: auto;
+        white-space: nowrap;
+        li{
+          padding-right: 1.5rem;
+        }
+      }
+    }
+    &:nth-child(2){
+      .post-categories{
+        display: flex;
+        justify-content: space-between;
+        li{
+          width: 49%;
+        }
+      }
+    }
+  }
+.sidebar-inner{
+  padding-top: 2rem;
+}
+  #contact-page{
+    .col-lg-3{
+      padding-left: 15px !important;
+    }
+  }
+}
+
+@media (max-width: 570px) {
+  .search-submit {
+    background-color: transparent;
+    color: $black;
+  }
+  .woocommerce-product-search {
+    background-color: #f6f6f6;
+  }
+  .bar{
+    padding-right: 15px !important;
+  }
+  .wpf_item.wpf_item_price{
+    padding: 1rem 3rem;
+  }
+}
+
+@media (max-width: 414px) {
+  body .woocommerce ul.products.cat-pro-content li.product.type-product,
+  .woocommerce ul.products.columns-4 li.product.type-product{
+    width: 50%;
+  }
+  .sale-main .woocommerce .products {
+    width: max-content;
+  }
+  body .woocommerce ul.products li.product.type-product {
+    width: 20rem;
+  }
+  .header {
+    .col-lg-2 {
+      padding: 0;
+    }
+  }
+  #single-product div.product div.images{
+    width: 95%;
+  }
+  .sv-loop .bg-gray-F5F5F5 {
+    padding: 1.5rem;
+  }
+  .sv-loop .text strong{
+    font-size: 2rem;
+  }
+  .news-list{
+    .col-ct{
+      width: 25rem;
+    }
+  }
+  .sale-cat{
+    padding-top: 0;
+  }
+  .news-content{
+    .news-list{
+      .col-6{
+        padding: 0 5px !important;
+      }
+    }
+    .fs-21{
+      font-size: 1.6rem;
+    }
+    .fs-24{
+      font-size: 1.8rem;
+    }
+    .h-250{
+      height: 18rem;
+    }
+    .col-lg-3{
+        padding-left: 15px !important;
+      }
+  }
+  #news-page{
+    padding-bottom: 0 !important;
+  }
+}
